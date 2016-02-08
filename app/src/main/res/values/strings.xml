@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Person Tracker</string>
+    <string name="google_api_key">AIzaSyAwwth1ozDD2Lxw1eWTRiLLXmdNCDum5R8</string>
+    <string name="facebook_app_id">1044760038902416</string>
+</resources>

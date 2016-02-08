@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity"
+    android:background="@color/backgroud">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Welcome to Person Tracker"
+        android:id="@+id/textView2"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do you want to"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/textView3"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/broadcast_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Broadcast your Location"
+        android:textSize="15dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/button_shape"
+        android:onClick="openBroadcasting"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or"
+        android:textSize="25dp"
+        android:id="@+id/textView4"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/track_button"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:text="Track another Person"
+        android:background="@drawable/button_shape2"
+        android:onClick="openTrackingDialog"/>
+
+</LinearLayout>
